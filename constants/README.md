@@ -1,0 +1,1 @@
+Put all constants here with filenames such as my-constant.const.ts (the exported constant would thus be called MY_CONSTANT_CONSTANT) and add them to the index file at the root of the folder (if it is the first constant to be imported, uncomment the related line in the index file at the root of the library).

@@ -1,0 +1,1 @@
+Put all enums here with filenames such as my-enum.enum.ts (the exported enum would thus be called MyEnumEnum) and add them to the index file at the root of the library (if it is the first enum to be imported, uncomment the related line in the index file at the root of the library).

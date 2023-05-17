@@ -1,0 +1,1 @@
+Put all models here with filenames such as my-model.model.ts (the exported model would thus be called MyModelModel) and add them to the index file at the root of the folder (if it is the first model to be imported, uncomment the related line in the index file at the root of the library).
