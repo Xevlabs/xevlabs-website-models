@@ -1,5 +1,6 @@
 export enum colorEnum {
     DEFAULT = 'DEFAULT',
     GRAY = 'GRAY',
-    WHITE = 'WHITE'
+    WHITE = 'WHITE',
+    PRIMARY = 'PRIMARY'
 }
