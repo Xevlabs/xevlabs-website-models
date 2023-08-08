@@ -1,6 +1,7 @@
 import { MediaFormat } from './MediaFormat';
+import { StrapiComponent } from '~/typings/models/StrapiComponent';
 
-export interface Media {
+export interface MediaInterface extends StrapiComponent {
     id: number;
     attributes: {
         name: string;
@@ -8,7 +9,7 @@ export interface Media {
         caption: string;
         width: number;
         height: number;
-        formats: { thumbnail: MediaFormat; medium: MediaFormat; small: MediaFormat; };
+        formats: { thumbnail: MediaFormat; medium: MediaFormat; small: MediaFormat };
         hash: string;
         ext: string;
         mime: string;
@@ -18,5 +19,5 @@ export interface Media {
         provider: string;
         createdAt: Date;
         updatedAt: Date;
-    }
+    };
 }
