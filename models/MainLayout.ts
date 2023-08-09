@@ -1,5 +1,5 @@
-import { Navbar } from '~/typings/models/Navbar';
-import { Footer } from '~/typings/models/Footer';
+import { Navbar } from './Navbar';
+import { Footer } from './Footer';
 
 export interface MainLayout {
     id: number;

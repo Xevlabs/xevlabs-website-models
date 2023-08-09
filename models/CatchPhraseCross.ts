@@ -1,4 +1,4 @@
-import { colorEnum } from '~/typings/enums/color-enum';
+import { colorEnum } from '../enums/color-enum';
 
 export interface CatchPhraseCross {
     id: number;
