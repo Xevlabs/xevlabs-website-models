@@ -10,3 +10,4 @@ export * from './Navbar';
 export * from './Page';
 export * from './TextBlock';
 export * from './CardCollection';
+export * from './MultiCard';
