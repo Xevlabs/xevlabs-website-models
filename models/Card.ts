@@ -3,8 +3,8 @@ import { MediaInterface } from './MediaInterface';
 
 export interface Card {
     id: number;
-    logo?: { data: MediaInterface };
+    logo: { data: MediaInterface };
     title?: string;
     description?: string;
-    button?: Button;
+    button: Button;
 }
