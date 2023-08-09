@@ -1,4 +1,4 @@
-import { Hero } from "./Hero";
+import { Hero } from './Hero';
 
 export interface Page {
     id: number;
@@ -6,6 +6,6 @@ export interface Page {
         slug?: string;
         content: Hero[];
         locale: string;
-        localizations?: { data: Page[] }
-    }
+        localizations?: { data: Page[] };
+    };
 }
