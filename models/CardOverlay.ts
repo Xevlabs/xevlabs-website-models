@@ -5,7 +5,7 @@ export interface CardOverlay {
     id: number;
     title?: string;
     description?: string;
-    button?: Button;
+    button: Button;
     backgroundColor?: colorEnum;
     overlayColor?: colorEnum;
 }
