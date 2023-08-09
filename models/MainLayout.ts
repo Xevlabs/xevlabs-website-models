@@ -1,12 +1,12 @@
-import {Navbar} from "~/typings/models/Navbar";
-import {Footer} from "~/typings/models/Footer";
+import { Navbar } from './Navbar';
+import { Footer } from './Footer';
 
 export interface MainLayout {
     id: number;
     attributes: {
-        navbar?: Navbar;
-        footer?: Footer;
+        navbar: Navbar;
+        footer: Footer;
         locale: string;
-        localizations?: { data: MainLayout[] }
-    }
+        localizations?: { data: MainLayout[] };
+    };
 }
