@@ -1,5 +1,5 @@
 import { MediaFormat } from './MediaFormat';
-import { StrapiComponent } from '~/typings/models/StrapiComponent';
+import { StrapiComponent } from './StrapiComponent';
 
 export interface MediaInterface extends StrapiComponent {
     id: number;

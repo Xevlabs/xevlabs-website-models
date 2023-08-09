@@ -1,7 +1,7 @@
+import { colorEnum } from '../enums/color-enum';
 import { MediaInterface } from './MediaInterface';
-import { colorEnum } from '~/typings/enums/color-enum';
-import { Links } from '~/typings/models/Links';
-import { Cta } from '~/typings/models/Cta';
+import { Links } from './Links';
+import { Cta } from './Cta';
 
 export interface Footer {
     id: number;

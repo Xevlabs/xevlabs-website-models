@@ -1,5 +1,5 @@
 import { MediaInterface } from './MediaInterface';
-import { Links } from '~/typings';
+import { Links } from './Links';
 
 export interface Navbar {
     id: number;
