@@ -9,3 +9,4 @@ export * from './MainLayout';
 export * from './Navbar';
 export * from './Page';
 export * from './TextBlock';
+export * from './CardCollection';

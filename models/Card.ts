@@ -1,9 +1,9 @@
 import { Button } from './Button';
-import { Media } from './Media';
+import { MediaInterface } from './MediaInterface';
 
 export interface Card {
     id: number;
-    logo?: { data: Media };
+    logo?: { data: MediaInterface };
     title?: string;
     description?: string;
     button?: Button;
