@@ -6,6 +6,6 @@ export interface PicturesWithDescription {
     pictures: Picture[];
     title?: string;
     catchphrase?: string;
-    description?: string
-    button?: Button
+    description?: string;
+    button?: Button;
 }
