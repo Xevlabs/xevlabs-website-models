@@ -1,5 +1,5 @@
+import { colorEnum } from '../enums/color-enum';
 import { Button } from './Button';
-import { colorEnum } from '~/typings/enums/color-enum';
 
 export interface CardOverlay {
     id: number;

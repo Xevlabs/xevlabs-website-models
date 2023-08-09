@@ -1,5 +1,5 @@
+import { colorEnum } from '../enums/color-enum';
 import { CardOverlay } from './CardOverlay';
-import { colorEnum } from '~/typings/enums/color-enum';
 
 export interface MultiCard {
     id: number;
