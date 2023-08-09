@@ -1,7 +1,12 @@
-import { Media } from './Media';
+import { MediaInterface } from './MediaInterface';
+import { Links } from '~/typings';
 
 export interface Navbar {
     id: number;
-    logo?: { data: Media };
+    logo: { data: MediaInterface };
     title?: string;
+    firstMenu: Links[];
+    secondMenu: Links[];
+    close: string;
+    open: string;
 }

@@ -1,4 +1,4 @@
-import {colorEnum} from "~/typings/enums/color-enum";
+import { colorEnum } from '~/typings/enums/color-enum';
 
 export interface Button {
     id: number;
