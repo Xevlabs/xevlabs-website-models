@@ -1,9 +1,10 @@
-import {Media} from "./Media";
-import {Button} from "./Button";
+import { Button } from './Button';
+import { MediaInterface } from './MediaInterface';
+import { StrapiComponent } from './StrapiComponent';
 
-export interface Hero {
+export interface Hero extends StrapiComponent {
     id: number;
-    pictures?: {data: [Media]}
-    text?: string
-    button?: Button
+    pictures?: { data: [MediaInterface] };
+    text?: string;
+    button: Button;
 }
