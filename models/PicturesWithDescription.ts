@@ -1,5 +1,5 @@
-import { Button } from "./Button";
-import { Picture } from "./Picture";
+import { Button } from './Button';
+import { Picture } from './Picture';
 
 export interface PicturesWithDescription {
     id: number;

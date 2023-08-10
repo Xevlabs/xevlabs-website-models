@@ -1,7 +1,6 @@
-import { MediaInterface } from "./MediaInterface";
-
+import { MediaInterface } from './MediaInterface';
 
 export interface Picture {
-    image: {data: MediaInterface};
+    image: { data: MediaInterface };
     cornerColor?: 'PRIMARY' | 'SECONDARY';
 }

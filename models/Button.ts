@@ -5,6 +5,7 @@ export interface Button {
     text?: string;
     type?: 'LINK' | 'CIRCLE';
     hasArrow?: boolean;
+    hasPlus?: boolean;
     color?: colorEnum;
     url?: string;
     overlayColor?: colorEnum;
