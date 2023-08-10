@@ -8,6 +8,6 @@ export * from './MediaInterface';
 export * from './MainLayout';
 export * from './Navbar';
 export * from './Page';
-export * from './TextBlock';
+export * from './TextWithCatchphrase';
 export * from './CardCollection';
 export * from './MultiCard';
