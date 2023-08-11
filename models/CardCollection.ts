@@ -3,8 +3,8 @@ import { Card } from './Card';
 
 export interface CardCollection {
     id: number;
-    title?: string;
+    title: string;
     catchPhrase?: string;
     cards: Card[];
-    backgroundColor?: colorEnum;
+    backgroundColor: colorEnum;
 }

@@ -1,6 +1,6 @@
 import { Button } from './Button';
 
-export interface TextBlock {
+export interface TextWithCatchphrase {
     id: number;
     title?: string;
     description?: string;
