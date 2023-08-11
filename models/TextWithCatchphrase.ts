@@ -5,6 +5,6 @@ export interface TextWithCatchphrase {
     title?: string;
     description?: string;
     catchphrase?: string;
-    backgroundColor?: string;
+    backgroundColor: string;
     button?: Button;
 }
