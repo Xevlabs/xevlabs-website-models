@@ -7,5 +7,5 @@ export interface PicturesWithDescription {
     title?: string;
     catchphrase?: string;
     description?: string;
-    button?: Button;
+    button: Button;
 }
