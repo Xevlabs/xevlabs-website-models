@@ -14,3 +14,4 @@ export * from './MultiCard';
 export * from './PicturesWithDescription';
 export * from './Picture';
 export * from './CardOverlay';
+export * from './Border';
