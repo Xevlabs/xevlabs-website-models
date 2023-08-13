@@ -1,12 +1,12 @@
 import { IconEnum } from '../enums';
-import { colorEnum } from '../enums/color-enum';
+import { ColorEnum } from '../enums/color-enum';
 
 export interface Button {
     id: number;
     text?: string;
     type?: 'LINK' | 'CIRCLE';
     icon?: IconEnum;
-    color?: colorEnum;
+    color?: ColorEnum;
     url?: string;
-    overlayColor?: colorEnum;
+    overlayColor?: ColorEnum;
 }

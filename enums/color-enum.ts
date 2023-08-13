@@ -1,4 +1,4 @@
-export enum colorEnum {
+export enum ColorEnum {
     DEFAULT = 'DEFAULT',
     GRAY = 'GRAY',
     WHITE = 'WHITE',

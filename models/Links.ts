@@ -1,8 +1,8 @@
-import { colorEnum } from '../enums/color-enum';
+import { ColorEnum } from '../enums/color-enum';
 
 export interface Links {
     id: number;
     target?: string;
-    color?: colorEnum;
+    color?: ColorEnum;
     url?: string;
 }
