@@ -15,3 +15,5 @@ export * from './PicturesWithDescription';
 export * from './Picture';
 export * from './CardOverlay';
 export * from './Border';
+export * from './CompanyBackground';
+export * from './TwoColsContent';
