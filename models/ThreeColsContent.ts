@@ -1,4 +1,4 @@
-import { ColorEnum } from '~/typings';
+import { ColorEnum } from '../enums/color-enum';
 
 export interface ThreeColsContent {
     title: string;

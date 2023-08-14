@@ -5,4 +5,5 @@ export enum ColorEnum {
     PRIMARY = 'PRIMARY',
     ALTERNATE = 'ALTERNATE',
     LIGHTGRAY = 'LIGHTGRAY',
+    DARKGRAY = 'DARKGRAY',
 }
