@@ -1,5 +1,5 @@
 import { Hero } from './Hero';
-import { PageColorEnum } from '~/typings';
+import { PageColorEnum } from '../enums/page-color.enum';
 
 export interface Page {
     id: number;

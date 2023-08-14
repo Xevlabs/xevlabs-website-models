@@ -1,4 +1,4 @@
-import { Border } from '~/typings';
+import { Border } from './Border';
 
 export interface SectionProps {
     title?: string;
