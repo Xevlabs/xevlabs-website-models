@@ -9,4 +9,5 @@ export interface CompanyBackground {
     backgroundColor: ColorEnum;
     button: Button;
     border: Border;
+    useAssetImage?: boolean;
 }

@@ -5,4 +5,5 @@ export interface TwoColsContent {
     backgroundColor: ColorEnum;
     border: Border;
     classes?: string[];
+    hasAsset?: boolean;
 }
