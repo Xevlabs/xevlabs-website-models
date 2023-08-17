@@ -15,7 +15,7 @@ export * from './PicturesWithDescription';
 export * from './Picture';
 export * from './CardOverlay';
 export * from './Border';
-export * from './CompanyBackground';
+export * from './TextButtonWithAsset';
 export * from './TwoColsContent';
 export * from './Seo';
 export * from './MetaSocial';
