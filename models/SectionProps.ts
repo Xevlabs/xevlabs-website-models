@@ -1,10 +1,12 @@
+import { ColorEnum } from '../enums/color-enum';
 import { Border } from './Border';
-import { SectionCustomProperties } from './SectionCustomProperties';
 
 export interface SectionProps {
     title?: string;
     background?: string;
     border?: Border;
-    sectionCustomProp?: SectionCustomProperties;
+    headingTitleBorderColor?: ColorEnum;
+    headingTitle?: string;
+    headingCatchPhrase?: string;
     overflow?: boolean;
 }
