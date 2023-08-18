@@ -5,5 +5,5 @@ export interface SectionProps {
     title?: string;
     background?: string;
     border?: Border;
-    sectionTitle?: SectionCustomProperties;
+    sectionCustomProp?: SectionCustomProperties;
 }

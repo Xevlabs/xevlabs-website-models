@@ -4,8 +4,8 @@ import { SectionCustomProperties } from './SectionCustomProperties';
 
 export interface TwoColsContent {
     backgroundColor: ColorEnum;
-    border: Border;
+    border?: Border;
     classes?: string[];
-    sectionTitle?: SectionCustomProperties;
+    sectionProps?: SectionCustomProperties;
     description?: string;
 }

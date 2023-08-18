@@ -7,5 +7,5 @@ export interface DescriptionWithCard {
     sectionCustomProps?: SectionCustomProperties;
     description?: string;
     cards: DarkCard[];
-    backgroundColor?: ColorEnum;
+    backgroundColor: ColorEnum;
 }
