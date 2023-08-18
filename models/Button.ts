@@ -4,7 +4,7 @@ import { ColorEnum } from '../enums/color-enum';
 export interface Button {
     id: number;
     text?: string;
-    type?: 'LINK' | 'CIRCLE';
+    type?: 'LINK' | 'CIRCLE' | 'OUTLINE';
     icon?: IconEnum;
     color?: ColorEnum;
     url?: string;
