@@ -9,4 +9,5 @@ export interface TwoColsContent {
     sectionProps?: SectionCustomProperties;
     description?: string;
     hasAsset?: boolean;
+    hasDescriptionCards?: boolean;
 }
