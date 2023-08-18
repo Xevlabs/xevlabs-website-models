@@ -6,4 +6,5 @@ export interface SectionProps {
     background?: string;
     border?: Border;
     sectionCustomProp?: SectionCustomProperties;
+    overflow?: boolean;
 }

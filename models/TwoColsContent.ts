@@ -8,4 +8,5 @@ export interface TwoColsContent {
     classes?: string[];
     sectionProps?: SectionCustomProperties;
     description?: string;
+    hasAsset?: boolean;
 }
