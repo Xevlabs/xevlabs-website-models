@@ -20,3 +20,7 @@ export * from './TwoColsContent';
 export * from './Seo';
 export * from './MetaSocial';
 export * from './LogoPicture';
+export * from './DarkCard';
+export * from './SectionCustomProperties';
+export * from './SectionHeading';
+export * from './DescriptionWithCard';
