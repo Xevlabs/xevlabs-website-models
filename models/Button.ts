@@ -1,10 +1,11 @@
-import { IconEnum } from '../enums';
+import { IconEnum } from '../enums/icon-enum';
+import { ButtonTypeEnum } from '../enums/button-type-enum';
 import { ColorEnum } from '../enums/color-enum';
 
 export interface Button {
     id: number;
     text?: string;
-    type?: 'LINK' | 'CIRCLE' | 'OUTLINE';
+    type?: ButtonTypeEnum;
     icon?: IconEnum;
     color?: ColorEnum;
     url?: string;
