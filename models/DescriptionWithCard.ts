@@ -4,7 +4,7 @@ import { SectionCustomProperties } from './SectionCustomProperties';
 
 export interface DescriptionWithCard {
     id: number;
-    sectionProps?: SectionCustomProperties;
+    sectionCustomProps?: SectionCustomProperties;
     description?: string;
     cards: DarkCard[];
     backgroundColor?: ColorEnum;
