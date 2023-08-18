@@ -1,13 +1,11 @@
 import { ColorEnum } from '../enums/color-enum';
-import { Border } from './Border';
 import { DarkCard } from './DarkCard';
-import { SectionTitle } from './SectionTitle';
+import { SectionCustomProperties } from './SectionCustomProperties';
 
 export interface DescriptionWithCard {
     id: number;
-    title?: SectionTitle;
+    sectionProps?: SectionCustomProperties;
     description?: string;
     cards: DarkCard[];
-    border: Border;
-    backgroundColor: ColorEnum;
+    backgroundColor?: ColorEnum;
 }

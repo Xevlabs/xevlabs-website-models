@@ -1,7 +1,8 @@
-import { TextWithBorderColor } from './TextWithBorderColor';
+import { SectionHeading } from './SectionHeading';
+import { Border } from './Border';
 
-export interface SectionTitle {
+export interface SectionCustomProperties {
     id: number;
-    text: TextWithBorderColor;
-    catchPhrase: string;
+    heading?: SectionHeading;
+    border?: Border;
 }

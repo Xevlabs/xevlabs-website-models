@@ -1,11 +1,11 @@
 import { ColorEnum } from '../enums/color-enum';
 import { Border } from './Border';
-import { SectionTitle } from './SectionTitle';
+import { SectionCustomProperties } from './SectionCustomProperties';
 
 export interface TwoColsContent {
     backgroundColor: ColorEnum;
     border: Border;
     classes?: string[];
-    sectionTitle?: SectionTitle;
+    sectionTitle?: SectionCustomProperties;
     description?: string;
 }

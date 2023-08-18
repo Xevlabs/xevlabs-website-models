@@ -1,7 +1,8 @@
 import { ColorEnum } from '../enums/color-enum';
 
-export interface TextWithBorderColor {
+export interface SectionHeading {
     id: number;
-    borderColor: ColorEnum;
-    text: string;
+    titleBorderColor?: ColorEnum;
+    title?: string;
+    catchPhraseHeading?: string;
 }

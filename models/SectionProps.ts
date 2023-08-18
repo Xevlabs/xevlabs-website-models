@@ -1,9 +1,9 @@
 import { Border } from './Border';
-import { SectionTitle } from './SectionTitle';
+import { SectionCustomProperties } from './SectionCustomProperties';
 
 export interface SectionProps {
     title?: string;
     background?: string;
     border?: Border;
-    sectionTitle?: SectionTitle;
+    sectionTitle?: SectionCustomProperties;
 }
