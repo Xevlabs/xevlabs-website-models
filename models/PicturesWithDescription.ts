@@ -1,9 +1,9 @@
 import { Button } from './Button';
-import { Picture } from './Picture';
+import {MediaFormat} from "./MediaFormat";
 
 export interface PicturesWithDescription {
     id: number;
-    pictures: Picture[];
+    pictures: MediaFormat[];
     title?: string;
     catchphrase?: string;
     description?: string;
