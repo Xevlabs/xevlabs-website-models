@@ -1,3 +1,5 @@
+import { Border } from './Border';
+
 interface TimelineItem {
     id: number;
     date: string;
@@ -7,4 +9,5 @@ interface TimelineItem {
 export interface Timeline {
     id: number;
     timeline: TimelineItem[];
+    border: Border;
 }
