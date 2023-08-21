@@ -12,7 +12,6 @@ export * from './TextWithCatchphrase';
 export * from './CardCollection';
 export * from './MultiCard';
 export * from './PicturesWithDescription';
-export * from './Picture';
 export * from './CardOverlay';
 export * from './Border';
 export * from './TextButtonWithAsset';

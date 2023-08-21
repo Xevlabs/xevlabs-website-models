@@ -3,7 +3,7 @@ import { MediaInterface } from './MediaInterface';
 
 export interface PicturesWithDescription {
     id: number;
-    pictures: MediaInterface[];
+    pictures: { data: MediaInterface[] };
     title?: string;
     catchphrase?: string;
     description?: string;
