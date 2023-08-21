@@ -5,4 +5,6 @@ export interface SectionProps {
     background?: string;
     border?: Border;
     overflow?: boolean;
+    noPadding?: boolean;
+    classList?: string[];
 }
