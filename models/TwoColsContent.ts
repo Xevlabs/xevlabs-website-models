@@ -9,5 +9,6 @@ export interface TwoColsContent {
     headingTitle?: string;
     headingCatchPhrase?: string;
     hasAsset?: boolean;
-    hasDescriptionCards?: boolean;
+    largeGap?: boolean;
+    smallPadding?: boolean;
 }
