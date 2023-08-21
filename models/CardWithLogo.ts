@@ -4,8 +4,8 @@ import { MediaInterface } from './MediaInterface';
 
 export interface CardWithLogo {
     id: number;
-    catchPhrase?: string;
-    backgroundColor?: ColorEnum;
+    title?: string;
+    backgroundColor: ColorEnum;
     pictures?: { data: [MediaInterface] };
     border?: Border;
 }
