@@ -19,6 +19,7 @@ export * from './TwoColsContent';
 export * from './Seo';
 export * from './MetaSocial';
 export * from './LogoPicture';
+export * from './Timeline';
 export * from './DarkCard';
 export * from './SectionCustomProperties';
 export * from './SectionHeading';

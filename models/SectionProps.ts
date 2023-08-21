@@ -8,4 +8,6 @@ export interface SectionProps {
     headingTitleBorderColor?: ColorEnum;
     headingCatchPhrase?: string;
     overflow?: boolean;
+    noPadding?: boolean;
+    classList?: string[];
 }
