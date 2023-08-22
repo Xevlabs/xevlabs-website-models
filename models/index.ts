@@ -25,3 +25,4 @@ export * from './SectionCustomProperties';
 export * from './SectionHeading';
 export * from './DescriptionWithCard';
 export * from './CardWithLogo';
+export * from './ButtonColorStyles';
