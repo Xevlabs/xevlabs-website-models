@@ -1,9 +1,10 @@
 import { ColorEnum } from '../enums/color-enum';
 import { ButtonColorStyles } from '../models/ButtonColorStyles';
 
-export const BUTTON_COLOR_STYLES_CONSTANT: {
+type ButtonColorStylesConstant = {
     [key in ColorEnum]: ButtonColorStyles;
-} = {
+};
+export const BUTTON_COLOR_STYLES_CONSTANT: ButtonColorStylesConstant = {
     [ColorEnum.ALTERNATE]: {
         backgroundColor: 'black',
         hoverBackgroundColor: 'contrast',
