@@ -6,6 +6,6 @@ export interface Button {
     text?: string;
     hasOutline?: boolean;
     icon?: IconEnum;
-    color: ColorEnum;
+    color?: ColorEnum;
     url?: string;
 }
