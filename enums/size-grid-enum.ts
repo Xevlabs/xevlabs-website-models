@@ -1,6 +1,6 @@
 export enum SizeGridEnum {
-    COLHALFTWO = 'col-1/2',
-    COLONE = 'col-1',
-    COLTWOTHREE = 'col-2/3',
-    COLONETHREE = 'col-1/3',
+    HALF = 'col-1/2',
+    FULL = 'col-1',
+    TWOTHIRDS = 'col-2/3',
+    ONETHIRD = 'col-1/3',
 }
