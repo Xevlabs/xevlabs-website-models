@@ -9,8 +9,8 @@ export interface StepperCard {
     id: number;
     title?: any;
     text: TextCollection[];
-    picture?: { data: [MediaInterface] };
-    button?: Button;
+    picture: { data: MediaInterface };
+    button: Button;
     props?: CardProps;
     badges: BadgeComponent[];
     backgroundColor?: ColorEnum;

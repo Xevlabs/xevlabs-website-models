@@ -8,6 +8,6 @@ export interface StepperHeader {
     headline?: SectionHeading;
     step?: number;
     border?: Border;
-    card?: StepperCard;
+    card: StepperCard;
     backgroundColor?: ColorEnum;
 }
