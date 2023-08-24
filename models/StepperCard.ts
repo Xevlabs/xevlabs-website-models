@@ -7,11 +7,11 @@ import { MediaInterface } from './MediaInterface';
 
 export interface StepperCard {
     id: number;
-    title?: any;
+    title?: string;
     text: TextCollection[];
     picture: { data: MediaInterface };
     button: Button;
     props?: CardProps;
     badges: BadgeComponent[];
-    backgroundColor?: ColorEnum;
+    backgroundColor: ColorEnum;
 }

@@ -6,6 +6,6 @@ export interface StepperContent {
     id: number;
     catchPhrase?: string;
     badge?: BadgeComponent;
-    cards: StepperCard[];
+    cards?: StepperCard[];
     border?: Border;
 }
