@@ -14,4 +14,5 @@ export interface StepperCard {
     props?: CardProps;
     badges: BadgeComponent[];
     backgroundColor: ColorEnum;
+    fullWidth: boolean;
 }
