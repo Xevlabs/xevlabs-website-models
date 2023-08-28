@@ -1,18 +1,17 @@
 import { ColorEnum } from '../enums/color-enum';
-import { BadgeComponent } from './BadgeComponent';
+import { Badge } from './Badge';
 import { CardProps } from './CardProps';
 import { Button } from './Button';
 import { TextCollection } from './TextCollection';
 import { MediaInterface } from './MediaInterface';
 
 export interface StepperCard {
-    id: number;
     title?: string;
     text: TextCollection[];
     picture: { data: MediaInterface };
     button: Button;
     props?: CardProps;
-    badges: BadgeComponent[];
+    badges: Badge[];
     backgroundColor: ColorEnum;
     fullWidth: boolean;
 }

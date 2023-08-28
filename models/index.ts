@@ -26,7 +26,6 @@ export * from './SectionHeading';
 export * from './DescriptionWithCard';
 export * from './CardWithLogo';
 export * from './ButtonColorStyles';
-export * from './BadgeComponent';
 export * from './CardProps';
 export * from './StepperCard';
 export * from './StepperComponent';

@@ -1,9 +1,9 @@
 import { StepperCard } from './StepperCard';
-import { BadgeComponent } from './BadgeComponent';
+import { Badge } from './Badge';
 
 export interface StepperContent {
     id: number;
     catchPhrase?: string;
-    badge?: BadgeComponent;
+    badge?: Badge;
     cards?: StepperCard[];
 }
