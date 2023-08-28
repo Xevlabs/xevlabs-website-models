@@ -1,7 +1,8 @@
 import { Button } from './Button';
+import { StrapiComponent } from '~/typings/models/StrapiComponent';
 
-export interface DarkCard {
-    id: number;
-    title: string;
-    button: Button;
+export interface DarkCard extends Partial<StrapiComponent> {
+    title?: string;
+    content?: string;
+    button?: Button;
 }

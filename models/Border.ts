@@ -8,4 +8,5 @@ export interface Border {
     top: boolean;
     right: boolean;
     bottom: boolean;
+    mobilePadding: boolean;
 }
