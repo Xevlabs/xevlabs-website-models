@@ -12,4 +12,5 @@ export interface TwoColsContent {
     largeGap?: boolean;
     smallPadding?: boolean;
     noPadding?: boolean;
+    mobilePadding?: boolean;
 }
