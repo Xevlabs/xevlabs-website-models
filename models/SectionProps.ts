@@ -7,6 +7,7 @@ export interface SectionProps {
     border?: Border;
     headingTitleBorderColor?: ColorEnum;
     headingCatchPhrase?: string;
+    headingStep?: number;
     overflow?: boolean;
     noPadding?: boolean;
     classList?: string[];
