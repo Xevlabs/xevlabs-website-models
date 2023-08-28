@@ -26,3 +26,6 @@ export * from './SectionHeading';
 export * from './DescriptionWithCard';
 export * from './CardWithLogo';
 export * from './ButtonColorStyles';
+export * from './SingleCard';
+export * from './Locations';
+export * from './Badge';
