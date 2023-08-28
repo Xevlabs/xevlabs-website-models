@@ -34,7 +34,6 @@ export * from './StepperContent';
 export * from './StepperHeader';
 export * from './StepperSection';
 export * from './TextCollection';
-export * from './DynamicColWithCards';
 export * from './SingleCard';
 export * from './Locations';
 export * from './Badge';
