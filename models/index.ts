@@ -29,3 +29,5 @@ export * from './ButtonColorStyles';
 export * from './SingleCard';
 export * from './Locations';
 export * from './Badge';
+export * from './Team';
+export * from './Collaborator';
