@@ -38,3 +38,5 @@ export * from './Locations';
 export * from './Badge';
 export * from './Team';
 export * from './Collaborator';
+export * from './TwoColsSection';
+export * from './CardWithParagraph';
