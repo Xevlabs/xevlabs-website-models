@@ -1,7 +1,6 @@
 import { ColorEnum } from '../enums/color-enum';
 import { Button } from './Button';
 import { Border } from './Border';
-import { MediaInterface } from './MediaInterface';
 
 export interface TextButtonWithAsset {
     id: number;
@@ -11,5 +10,4 @@ export interface TextButtonWithAsset {
     button: Button;
     border: Border;
     useAssetImage?: boolean;
-    picture: { data: MediaInterface };
 }
