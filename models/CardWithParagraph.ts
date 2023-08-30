@@ -1,10 +1,10 @@
+import { ColorEnum } from '../enums/color-enum';
 import { TwoColsSection } from './TwoColsSection';
 import { Border } from './Border';
-import { ColorEnum } from '../enums/color-enum';
 
 export interface CardWithParagraph {
     id: number;
-    boder?: Border;
+    border?: Border;
     columns: TwoColsSection[];
-    backgroundColor?: ColorEnum;
+    backgroundColor: ColorEnum;
 }
