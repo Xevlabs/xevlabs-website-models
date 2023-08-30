@@ -1,10 +1,10 @@
-import { Button } from './Button';
+import { ColorEnum } from '../enums/color-enum';
+import { Border } from './Border';
+import { Column } from './Column';
 
 export interface TwoColsSection {
     id: number;
-    content?: string;
-    contentMobileOrder?: number;
-    button?: Button;
-    buttonMobileOrder?: number;
-    dense?: boolean;
+    border?: Border;
+    columns: Column[];
+    backgroundColor: ColorEnum;
 }
