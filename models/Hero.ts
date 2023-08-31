@@ -1,4 +1,4 @@
-import { TextAlignEnum } from '../enums/textAlign-enum';
+import { ContentAlignEnum } from '../enums/contentAlign-enum';
 import { Button } from './Button';
 import { MediaInterface } from './MediaInterface';
 import { StrapiComponent } from './StrapiComponent';
@@ -10,5 +10,5 @@ export interface Hero extends StrapiComponent {
     text?: string;
     button: Button;
     border: Border;
-    textAlign: TextAlignEnum;
+    textAlign: ContentAlignEnum;
 }
