@@ -1,5 +1,6 @@
 import { IconEnum } from '../enums/icon-enum';
 import { ColorEnum } from '../enums/color-enum';
+import { HubspotForm } from './HubspotForm';
 
 export interface Button {
     id: number;
@@ -8,4 +9,5 @@ export interface Button {
     icon?: IconEnum;
     color?: ColorEnum;
     url?: string;
+    hubspotForm?: HubspotForm;
 }
