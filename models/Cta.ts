@@ -1,11 +1,11 @@
-import { ColorEnum } from '../enums/color-enum';
 import { MediaInterface } from './MediaInterface';
+import { HubspotForm } from './HubspotForm';
 
 export interface Cta {
     id: number;
-    color?: ColorEnum;
     backgroundImage?: { data: MediaInterface };
     url?: string;
     description?: string;
     hasArrow?: boolean;
+    hubspotForm?: HubspotForm;
 }
