@@ -7,4 +7,5 @@ export interface TwoColsSection {
     border?: Border;
     columns: Column[];
     backgroundColor: ColorEnum;
+    useAssetImage?: boolean;
 }
