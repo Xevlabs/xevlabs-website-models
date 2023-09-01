@@ -1,13 +1,11 @@
 import { ColorEnum } from '../enums/color-enum';
-import { StepperCard } from './StepperCard';
 import { Border } from './Border';
 import { SectionHeading } from './SectionHeading';
 
-export interface StepperHeader {
+export interface StepperHeadingSection {
     id: number;
-    headline?: SectionHeading;
-    step?: number;
+    heading?: SectionHeading;
     border?: Border;
-    card?: StepperCard;
     backgroundColor?: ColorEnum;
+    step?: number;
 }
