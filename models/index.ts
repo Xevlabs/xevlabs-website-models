@@ -40,3 +40,5 @@ export * from './Collaborator';
 export * from './HubspotForm';
 export * from './Column';
 export * from './TwoColsSection';
+export * from './Project';
+export * from './ProjectsSection';

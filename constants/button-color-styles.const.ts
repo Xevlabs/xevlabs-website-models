@@ -20,7 +20,7 @@ export const BUTTON_COLOR_STYLES_CONSTANT: ButtonColorStylesConstant = {
     [ColorEnum.DARKGRAY]: {
         backgroundColor: 'darkgray-500',
         hoverBackgroundColor: 'gray-900',
-        textColor: 'gray-800',
+        textColor: 'white',
         hoverTextColor: 'gray-800',
     },
     [ColorEnum.CONTRAST]: {
