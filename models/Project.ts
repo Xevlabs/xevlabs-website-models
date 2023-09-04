@@ -1,6 +1,7 @@
+import { BudgetEnum, ClientTypeEnum, ProjectTypeEnum } from '../enums';
 import { Testimonial } from './Testimonial';
 import { Seo } from './Seo';
-import { MediaInterface } from '~/typings';
+import { MediaInterface } from './MediaInterface';
 
 export interface Project {
     id: number;
@@ -9,9 +10,9 @@ export interface Project {
         client?: string;
         slug?: string;
         duration?: string;
-        type?: 'WEB_APP' | 'MOBILE_APP' | 'DIGITAL_TRANSFORMATION' | 'ERP' | 'ECOMMERCE';
-        clientType?: 'PME' | 'CORPORATE' | 'STARTUP';
-        budget?: 'UNDER_50' | 'BETWEEN_50_100' | 'BETWEEN_100_150' | 'OVER_150';
+        type?: ProjectTypeEnum;
+        clientType?: ClientTypeEnum;
+        budget?: BudgetEnum;
         team?: string;
         addedValue?: any;
         desktopImage?: { data: MediaInterface };
