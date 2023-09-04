@@ -42,3 +42,4 @@ export * from './Column';
 export * from './TwoColsSection';
 export * from './Project';
 export * from './ProjectsSection';
+export * from './TestimonialSection';
