@@ -8,6 +8,7 @@ export interface TwoColsContent {
     headingTitleBorderColor?: ColorEnum;
     headingTitle?: string;
     headingCatchPhrase?: string;
+    step?: number;
     hasAsset?: boolean;
     largeGap?: boolean;
     smallPadding?: boolean;

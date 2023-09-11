@@ -1,6 +1,7 @@
 import { ColorEnum } from '../enums/color-enum';
 import { Border } from './Border';
 import { Column } from './Column';
+import { SectionHeading } from './SectionHeading';
 
 export interface TwoColsSection {
     id: number;
@@ -8,4 +9,5 @@ export interface TwoColsSection {
     columns: Column[];
     backgroundColor: ColorEnum;
     useAssetImage?: boolean;
+    heading?: SectionHeading;
 }

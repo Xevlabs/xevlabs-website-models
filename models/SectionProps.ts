@@ -12,5 +12,4 @@ export interface SectionProps {
     noPadding?: boolean;
     classList?: string[];
     mobilePadding?: boolean;
-    verticalPadding?: boolean;
 }
