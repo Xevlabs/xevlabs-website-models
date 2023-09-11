@@ -2,6 +2,7 @@ import { BudgetEnum, ClientTypeEnum, ProjectTypeEnum } from '../enums';
 import { Testimonial } from './Testimonial';
 import { Seo } from './Seo';
 import { MediaInterface } from './MediaInterface';
+import { Hero } from './Hero';
 
 export interface Project {
     id: number;
@@ -21,5 +22,7 @@ export interface Project {
         mobileImage?: { data: MediaInterface };
         locale: string;
         localizations?: { data: Project[] };
+        technologies?: string;
+        hero?: Hero;
     };
 }
