@@ -11,5 +11,6 @@ export interface SectionProps {
     overflow?: boolean;
     noPadding?: boolean;
     classList?: string[];
+    noContent?: boolean;
     noMobilePadding?: boolean;
 }
