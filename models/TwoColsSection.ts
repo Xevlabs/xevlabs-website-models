@@ -9,5 +9,4 @@ export interface TwoColsSection {
     columns: Column[];
     backgroundColor: ColorEnum;
     useAssetImage?: boolean;
-    heading?: SectionHeading;
 }

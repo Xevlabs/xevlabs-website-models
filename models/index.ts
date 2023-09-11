@@ -36,5 +36,6 @@ export * from './Collaborator';
 export * from './HubspotForm';
 export * from './Column';
 export * from './TwoColsSection';
-export * from './StepperQuoteSection';
+export * from './QuoteSection';
 export * from './StepperCardSection';
+export * from './HeadingSection';

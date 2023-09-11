@@ -5,5 +5,4 @@ export interface SectionHeading {
     titleBorderColor?: ColorEnum;
     title?: string;
     catchPhraseHeading?: string;
-    step?: number;
 }
