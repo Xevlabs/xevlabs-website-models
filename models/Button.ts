@@ -3,7 +3,7 @@ import { ColorEnum } from '../enums/color-enum';
 import { HubspotForm } from './HubspotForm';
 
 export interface Button {
-    id: number;
+    id?: number;
     text?: string;
     hasOutline?: boolean;
     icon?: IconEnum;

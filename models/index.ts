@@ -39,3 +39,8 @@ export * from './TwoColsSection';
 export * from './QuoteSection';
 export * from './StepperCardSection';
 export * from './HeadingSection';
+export * from './Project';
+export * from './ProjectsSection';
+export * from './TestimonialSection';
+export * from './SectionWithCards';
+export * from './AlternateDarkCard';

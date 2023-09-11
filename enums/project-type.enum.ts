@@ -1,0 +1,7 @@
+export enum ProjectTypeEnum {
+    WEB_APP = 'WEB_APP',
+    MOBILE_APP = 'MOBILE_APP',
+    DIGITAL_TRANSFORMATION = 'DIGITAL_TRANSFORMATION',
+    ERP = 'ERP',
+    ECOMMERCE = 'ECOMMERCE',
+}
