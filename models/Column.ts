@@ -13,4 +13,5 @@ export interface Column {
     contentImage?: { data: MediaInterface };
     imageRound?: boolean;
     imageAlignment?: ContentAlignEnum;
+    imageCentred?: boolean;
 }
