@@ -43,3 +43,5 @@ export * from './ProjectsSection';
 export * from './TestimonialSection';
 export * from './SectionWithCards';
 export * from './AlternateDarkCard';
+export * from './BadgeColumn';
+export * from './SectionWithBadges';
