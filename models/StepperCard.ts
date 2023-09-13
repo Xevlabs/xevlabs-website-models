@@ -9,6 +9,7 @@ export interface StepperCard {
     title?: string;
     text: TextCollection[];
     picture: { data: MediaInterface };
+    mobilePicture: { data: MediaInterface };
     button?: Button;
     props?: CardProps;
     badges: Badge[];
