@@ -1,8 +1,8 @@
 import { ColorEnum } from '../enums/color-enum';
 
 export interface Badge {
-    id: number;
+    id?: number;
     title: string;
-    textColor: ColorEnum;
+    textColor?: ColorEnum;
     backgroundColor: ColorEnum;
 }
