@@ -6,9 +6,11 @@ import { Border } from './Border';
 
 export interface Hero extends StrapiComponent {
     id: number;
-    pictures?: { data: [MediaInterface] };
+    logos?: { data: [MediaInterface] };
     text?: string;
     button: Button;
     border: Border;
     textAlign: ContentAlignEnum;
+    image?: { data: MediaInterface };
+    imageAlign?: 'DEFAULT' | 'LEFT' | 'BOTTOM';
 }
