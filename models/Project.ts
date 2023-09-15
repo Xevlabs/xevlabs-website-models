@@ -3,6 +3,7 @@ import { Testimonial } from './Testimonial';
 import { Seo } from './Seo';
 import { MediaInterface } from './MediaInterface';
 import { Hero } from './Hero';
+import { StrapiComponent } from './StrapiComponent';
 
 export interface Project {
     id: number;
@@ -24,5 +25,6 @@ export interface Project {
         localizations?: { data: Project[] };
         technologies?: string;
         hero?: Hero;
+        content?: StrapiComponent[];
     };
 }

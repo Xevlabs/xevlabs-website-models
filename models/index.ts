@@ -45,3 +45,4 @@ export * from './SectionWithCards';
 export * from './AlternateDarkCard';
 export * from './BadgeColumn';
 export * from './SectionWithBadges';
+export * from './ImageComponent';
