@@ -10,6 +10,7 @@ export interface SectionProps {
     headingStep?: number;
     overflow?: boolean;
     noPadding?: boolean;
+    noYPadding?: boolean;
     classList?: string[];
     noContent?: boolean;
     noMobilePadding?: boolean;
