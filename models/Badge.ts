@@ -4,5 +4,6 @@ export interface Badge {
     id?: number;
     title: string;
     textColor?: ColorEnum;
-    backgroundColor: ColorEnum;
+    backgroundColor?: ColorEnum;
+    small?: boolean;
 }

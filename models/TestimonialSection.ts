@@ -7,4 +7,6 @@ export interface TestimonialSection {
     border?: Border;
     project: { data: Project };
     backgroundColor: ColorEnum;
+    hideTestimonial?: boolean;
+    cardBackgroundColor: ColorEnum;
 }
