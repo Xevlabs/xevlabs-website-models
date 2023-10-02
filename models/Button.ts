@@ -7,7 +7,9 @@ export interface Button {
     text?: string;
     hasOutline?: boolean;
     icon?: IconEnum;
+    startIcon?: IconEnum;
     color?: ColorEnum;
     url?: string;
     hubspotForm?: HubspotForm;
+    dense?: boolean;
 }

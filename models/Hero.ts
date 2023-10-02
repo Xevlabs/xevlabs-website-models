@@ -13,4 +13,5 @@ export interface Hero extends StrapiComponent {
     textAlign: ContentAlignEnum;
     image?: { data: MediaInterface };
     imageAlign?: 'DEFAULT' | 'LEFT' | 'BOTTOM';
+    announcement?: Button;
 }
