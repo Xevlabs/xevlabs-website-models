@@ -9,7 +9,7 @@ export interface Seo {
     metaSocial: MetaSocial[];
     keywords?: string;
     metaRobots?: string;
-    structuredData?: any;
+    structuredData?: { jsonLD?: any }[];
     metaViewport?: string;
     canonicalURL?: string;
 }
