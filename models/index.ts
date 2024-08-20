@@ -47,3 +47,6 @@ export * from './BadgeColumn';
 export * from './SectionWithBadges';
 export * from './ImageComponent';
 export * from './Redirection';
+export * from './Article';
+export * from './ArticleSummary';
+export * from './CtaSection';

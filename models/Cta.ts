@@ -8,4 +8,5 @@ export interface Cta {
     description?: string;
     hasArrow?: boolean;
     hubspotForm?: HubspotForm;
+    onPage?: boolean;
 }
