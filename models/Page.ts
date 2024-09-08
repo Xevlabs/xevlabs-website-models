@@ -12,3 +12,12 @@ export interface Page {
         localizations?: { data: Page[] };
     };
 }
+
+export interface PageAttributes {
+    slug?: string;
+    content: any[];
+    locale: string;
+    seo?: Seo;
+    mainColor: PageColorEnum;
+    localizations?: { data: Page[] };
+}

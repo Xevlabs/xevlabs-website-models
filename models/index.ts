@@ -50,3 +50,5 @@ export * from './Redirection';
 export * from './Article';
 export * from './ArticleSummary';
 export * from './CtaSection';
+export * from './ProjectsListSection';
+export * from './ArticlesListSection';

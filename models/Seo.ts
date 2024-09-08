@@ -1,11 +1,13 @@
-import { MediaFormat } from './MediaFormat';
 import { MetaSocial } from './MetaSocial';
+import { MediaInterface } from '~/typings';
 
 export interface Seo {
     id: number;
     metaTitle: string;
     metaDescription: string;
-    metaImage: { data: MediaFormat };
+    metaImage: {
+        data: MediaInterface;
+    };
     metaSocial: MetaSocial[];
     keywords?: string;
     metaRobots?: string;
