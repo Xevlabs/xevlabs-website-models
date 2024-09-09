@@ -4,6 +4,7 @@ export interface ArticleSummaryItem {
     id?: number;
     href: string;
     title: string;
+    items: ArticleSummaryItem[];
 }
 
 export interface ArticleSummaryProps {
