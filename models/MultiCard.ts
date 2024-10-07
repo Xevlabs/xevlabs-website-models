@@ -7,4 +7,5 @@ export interface MultiCard {
     catchPhrase: string;
     cards: CardOverlay[];
     backgroundColor: ColorEnum;
+    bigCards: boolean;
 }
