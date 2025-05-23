@@ -5,4 +5,5 @@ export interface ThreeColsContent {
     backgroundColor: ColorEnum;
     classes?: string[];
     phrase: string;
+    colsNumber?: number;
 }
